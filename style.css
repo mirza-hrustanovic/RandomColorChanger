@@ -1,0 +1,23 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#colorBtn {
+  color: #fefefe;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0.25 0.5;
+  border: 2px solid #fefefe;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+#colorBtn:hover {
+  color: goldenrod;
+}
+#colors {
+  margin-left: 65px;
+  color: black;
+  font-size: 2.5rem;
+}
